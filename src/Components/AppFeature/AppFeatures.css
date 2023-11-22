@@ -1,0 +1,11 @@
+.app_heading {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.app_p{
+    display: flex;
+    justify-content: center;
+}
