@@ -1,5 +1,5 @@
 import { Button } from "@mui/material";
-import "./Banner.css"
+import "./Banner.css";
 const Banner = () => {
   return (
     <section
@@ -17,13 +17,8 @@ const Banner = () => {
       </div>
       <div>
         <img
+          className="banner_img"
           src="https://gymbook.in/assets/img/hero-img.png"
-          style={{
-            alignSelf: "flex-end",
-            width: "30rem",
-            height: "auto",
-            margin: "5px 202px",
-          }}
         />
       </div>
     </section>
